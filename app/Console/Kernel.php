@@ -18,7 +18,6 @@ class Kernel extends ConsoleKernel
         $this->load(__DIR__.'/Commands');
     }
     protected $commands = [
-    \App\Console\Commands\TestNetworkServices::class,
     \App\Console\Commands\DiscoverNetwork::class,
     \App\Console\Commands\PollDevices::class,
 ];

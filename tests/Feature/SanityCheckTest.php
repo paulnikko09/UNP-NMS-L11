@@ -4,9 +4,9 @@ namespace Tests\Feature;
 
 use Tests\TestCase;
 
-class ExampleTest extends TestCase
+class SanityCheckTest extends TestCase
 {
-    public function test_it_works(): void
+    public function test_it_runs(): void
     {
         $this->assertTrue(true);
     }
