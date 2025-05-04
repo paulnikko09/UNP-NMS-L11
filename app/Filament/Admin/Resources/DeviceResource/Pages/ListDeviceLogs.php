@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Filament\Admin\Resources\DeviceLogResource\Pages;
+namespace App\Filament\Admin\Resources\DeviceResource\Pages;
 
-use App\Filament\Admin\Resources\DeviceLogResource;
 use Filament\Resources\Pages\ListRecords;
+use App\Filament\Admin\Resources\DeviceResource;
 
 class ListDeviceLogs extends ListRecords
 {
-    protected static string $resource = DeviceLogResource::class;
+    protected static string $resource = DeviceResource::class;
 }
