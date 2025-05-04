@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services\Discovery;
+namespace App\Services\Network;
 
 class NetworkScannerService
 {
