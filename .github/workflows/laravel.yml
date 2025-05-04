@@ -51,6 +51,7 @@ jobs:
       run: php artisan migrate --force
 
     - name: Run Unit & Feature Tests
-      run: php artisan test
-
+      run: |
+      mkdir -p tests/Unit
+      php artisan test
      
